@@ -10,11 +10,10 @@
 - 401 后自动重取 token 
 - Windows 单实例锁，避免并发运行
 - 成功、失败桌面右上角提示( + 常驻错误窗口）
+- `logs/auto_sign.log` 和 `last_status.json`
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/cce05aa0-e1f6-4c9f-a2ca-81e0290a09e2" />
 <img width="470" height="130" alt="image" src="https://github.com/user-attachments/assets/59e8a428-c2da-44c1-b996-7554da91bede" />
 <img width="620" height="370" alt="image" src="https://github.com/user-attachments/assets/8761cd8a-4650-4ae1-9748-8dfc77054783" />
-- `logs/auto_sign.log` 和 `last_status.json`
-
 ## 目录结构
 
 ```text
@@ -99,7 +98,9 @@ copy config.example.json config.json
 https://dashboard.locyanfrp.cn/auth/oauth/authorize?client_id=你的应用ID&scopes=Sign.Read,Sign.Action.Sign&mode=code
 ```
 <img width="596" height="634" alt="image" src="https://github.com/user-attachments/assets/43d2e813-39d1-4182-aa4c-8c35e0649941" />
+
 授权成功后，页面会给你一个一次性 `code`。
+
 <img width="469" height="304" alt="image" src="https://github.com/user-attachments/assets/4d13cc88-7024-49ae-8353-c28a473abaa3" />
 
 ## 第 6 步：把 code 换成 refresh_token
