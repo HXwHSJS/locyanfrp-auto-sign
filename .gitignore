@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Local runtime files
+config.json
+logs/
+last_status.json
+auto_sign.lock
+
+# Windows
+Thumbs.db
+Desktop.ini

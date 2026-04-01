@@ -1,0 +1,17 @@
+{
+  "app_id": "22",
+  "refresh_token": "",
+  "traffic_unit": "GB",
+  "notify_on_success": true,
+  "notify_on_already_signed": false,
+  "notify_on_failure": true,
+  "popup_right_margin": 20,
+  "popup_top": 40,
+  "popup_stack_gap": 10,
+  "popup_success_width": 400,
+  "popup_success_height": 100,
+  "popup_error_width": 470,
+  "popup_error_height": 130,
+  "persistent_error_width": 620,
+  "persistent_error_height": 340
+}
