@@ -165,10 +165,10 @@ py auto_sign.py --test-failure
 <img width="470" height="130" alt="image" src="https://github.com/user-attachments/assets/59e8a428-c2da-44c1-b996-7554da91bede" />
 <img width="620" height="370" alt="image" src="https://github.com/user-attachments/assets/8761cd8a-4650-4ae1-9748-8dfc77054783" />
 
-你应该会看到：
+你应该会看到（右上角）：
 
 - 成功：绿色短提醒
-- 失败：右上角红提示 + 下方常驻错误窗口
+- 失败：红色长提醒与其下方常驻错误窗口
 
 ## 第 9 步：配置 Windows 计划任务
 <img width="1188" height="792" alt="image" src="https://github.com/user-attachments/assets/3a48ebd2-5a46-486a-9309-83d77cd6e58f" />
