@@ -1,13 +1,13 @@
 # LoCyanFrp Auto Sign (Windows + OAuth)
 
-一个面向 **LoCyanFrp** 的 Windows 自动签到示例项目。
+一个面向 **LoCyanFrp** 的 Windows 自动签到项目。
 
 ## 功能
 
-- OAuth `refresh_token -> access_token`
-- `GET /sign` 先查状态，未签到才 `POST /sign`
+- OAuth ` access_token`
+- `GET /sign` -> `POST /sign`
 - 主备 API 自动切换
-- 401 后自动重取 token 再试一次
+- 401 后自动重取 token 
 - Windows 单实例锁，避免并发运行
 - 成功轻提醒
 - 失败右上角红提示 + 常驻错误窗口
