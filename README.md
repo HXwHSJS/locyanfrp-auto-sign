@@ -1,6 +1,6 @@
 # LoCyanFrp Auto Sign (Windows + OAuth)
 
-一个面向 **LoCyanFrp** 的 Windows 自动签到项目。
+一个对 **LoCyanFrp** 的 Windows 自动签到项目。
 
 ## 功能
 
