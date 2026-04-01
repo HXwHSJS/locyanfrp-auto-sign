@@ -238,7 +238,7 @@ H:\LocyanSign
 
 打开 `config.json`，常见字段如下：
 
-### `traffic_unit`
+### `traffic_unit`签到单位（LocyanFrp牛逼）
 
 ```json
 "traffic_unit": "GB"
@@ -249,7 +249,7 @@ H:\LocyanSign
 ### 成功/失败提醒开关
 
 ```json
-"notify_on_success": true,
+"notify_on_success": true, 
 "notify_on_already_signed": false,
 "notify_on_failure": true
 ```
@@ -274,8 +274,8 @@ H:\LocyanSign
 
 首次部署完成后，先手动运行一次，再配置计划任务。
 
-- 这是第三方示例项目，不是 LoCyanFrp 官方项目
-- 用户需要自行承担使用风险
+- 这是第三方项目，不是 LoCyanFrp 官方项目
+- 用户需要自行承担使用风险（API都写了，可能不会有事？LocyanFrp牛逼）
 - 请勿把自己的 token 上传到 GitHub
 
 ## 常见问题
@@ -288,5 +288,5 @@ H:\LocyanSign
 
 ```powershell
 py -c "import requests; print(requests.__version__)"
-如果已经安装了 requests，并且版本不低于 2.28.0，可以直接跳过依赖安装，继续执行后续步骤。
+如果已经安装了 requests，并且版本不低于 2.15.0，可以直接跳过依赖安装，继续执行后续步骤。
 ```
