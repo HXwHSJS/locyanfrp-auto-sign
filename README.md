@@ -96,14 +96,9 @@ copy config.example.json config.json
 ```text
 https://dashboard.locyanfrp.cn/auth/oauth/authorize?client_id=你的应用ID&scopes=Sign.Read,Sign.Action.Sign&mode=code
 ```
-
-授权成功后，页面会给你一个一次性 `code`。
 <img width="596" height="634" alt="image" src="https://github.com/user-attachments/assets/43d2e813-39d1-4182-aa4c-8c35e0649941" />
-<img width="521" height="365" alt="image" src="https://github.com/user-attachments/assets/14a8f6aa-9c4f-4ac0-a981-31e8dc19605b" />
+授权成功后，页面会给你一个一次性 `code`。
 <img width="469" height="304" alt="image" src="https://github.com/user-attachments/assets/4d13cc88-7024-49ae-8353-c28a473abaa3" />
-
-
-
 
 ## 第 6 步：把 code 换成 refresh_token
 
