@@ -42,18 +42,28 @@ locyanfrp-auto-sign-template/
 - `Sign.Read`
 - `Sign.Action.Sign`
 
-## 第 2 步：克隆项目
+## 第 2 步：克隆项目(或者下载zip文件)
 
 ```powershell
-git clone <你的仓库地址>
-cd locyanfrp-auto-sign-template
+git clone https://github.com/HXwHSJS/locyanfrp-auto-sign.git
+cd locyanfrp-auto-sign
 ```
+<img width="690" height="249" alt="image" src="https://github.com/user-attachments/assets/0f06d5c7-ae23-4006-a67d-3834d0db7c22" />
+
 
 ## 第 3 步：安装依赖
+
+-本项目只依赖一个第三方库：`requests`.
 
 ```powershell
 py -m pip install -r requirements.txt
 ```
+-你可以先检查是否已安装
+```powershell
+py -c "import requests; print(requests.__version__)" 
+```
+<img width="786" height="47" alt="image" src="https://github.com/user-attachments/assets/7b2d4d07-5c64-417f-b55b-efa0bd2f8dc4" />
+
 
 ## 第 4 步：生成本地配置文件
 
@@ -233,21 +243,23 @@ H:\LocyanSign
 - `popup_top`：距离顶部的边距
 - `popup_stack_gap`：红提示与常驻窗口之间的间距
 
-## 不要提交到 GitHub 的文件
-
-这些内容只应该保留在本地，已经在 `.gitignore` 中处理：
-
-- `config.json`
-- `logs/`
-- `last_status.json`
-- `auto_sign.lock`
-
 ## 建议
 
 首次部署完成后，先手动运行一次，再配置计划任务。
 
-如果你准备公开发布这个项目，建议在 README 中明确说明：
-
 - 这是第三方示例项目，不是 LoCyanFrp 官方项目
 - 用户需要自行承担使用风险
 - 请勿把自己的 token 上传到 GitHub
+
+## 常见问题
+
+### 1. 执行 `py -m pip install -r requirements.txt` 时提示 SSL EOF / 无法连接 PyPI
+
+这通常是本机网络、代理、证书或 PyPI 连接问题，不是本项目脚本本身的问题。
+
+你可以先执行：
+
+```powershell
+py -c "import requests; print(requests.__version__)"
+如果已经安装了 requests，并且版本不低于 2.28.0，可以直接跳过依赖安装，继续执行后续步骤。
+```
