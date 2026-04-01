@@ -12,6 +12,7 @@
 - 成功、失败桌面右上角提示( + 常驻错误窗口）
 - `logs/auto_sign.log` 和 `last_status.json`
 
+###目录
 ```text
 locyanfrp-auto-sign/
 ├─ auto_sign.py
