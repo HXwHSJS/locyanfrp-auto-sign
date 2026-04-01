@@ -2,13 +2,6 @@
 
 一个面向 **LoCyanFrp** 的 Windows 自动签到示例项目。
 
-这个仓库是“白纸版”：
-
-- **不包含任何个人 token**
-- **不包含 `config.json`**
-- **不包含日志、状态文件和运行缓存**
-- 用户需要按照教程自己完成 OAuth 授权和本地配置
-
 ## 功能
 
 - OAuth `refresh_token -> access_token`
@@ -74,7 +67,7 @@ copy config.example.json config.json
 
 ```json
 {
-  "app_id": "22",
+  "app_id": "你的应用ID",
   "refresh_token": ""
 }
 ```
@@ -83,10 +76,10 @@ copy config.example.json config.json
 
 ## 第 5 步：获取一次性授权 code
 
-浏览器打开下面的链接，把 `22` 改成你的 `app_id`：
+浏览器打开下面的链接，把 `你的应用ID` 改成你的 `app_id`：
 
 ```text
-https://dashboard.locyanfrp.cn/auth/oauth/authorize?client_id=22&scopes=Sign.Read,Sign.Action.Sign&mode=code
+https://dashboard.locyanfrp.cn/auth/oauth/authorize?client_id=你的应用ID&scopes=Sign.Read,Sign.Action.Sign&mode=code
 ```
 
 授权成功后，页面会给你一个一次性 `code`。
@@ -161,7 +154,7 @@ py auto_sign.py --test-failure
 ### 触发器
 
 - 每天一次
-- 例如 `09:05`
+- 例如 `09:00`
 
 ### 操作
 
