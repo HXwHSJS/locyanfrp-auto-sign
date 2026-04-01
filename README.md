@@ -9,14 +9,13 @@
 - 主备 API 自动切换
 - 401 后自动重取 token 
 - Windows 单实例锁，避免并发运行
-- 成功轻提醒
-- 失败右上角红提示 + 常驻错误窗口
-- 写入 `logs/auto_sign.log` 和 `last_status.json`
+- 成功、失败右上角提示( + 常驻错误窗口）
+- `logs/auto_sign.log` 和 `last_status.json`
 
 ## 目录结构
 
 ```text
-locyanfrp-auto-sign-template/
+locyanfrp-auto-sign/
 ├─ auto_sign.py
 ├─ get_refresh_token.py
 ├─ config.example.json
