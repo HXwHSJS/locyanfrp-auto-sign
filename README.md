@@ -9,7 +9,10 @@
 - 主备 API 自动切换
 - 401 后自动重取 token 
 - Windows 单实例锁，避免并发运行
-- 成功、失败右上角提示( + 常驻错误窗口）
+- 成功、失败桌面右上角提示( + 常驻错误窗口）
+<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/cce05aa0-e1f6-4c9f-a2ca-81e0290a09e2" />
+<img width="470" height="130" alt="image" src="https://github.com/user-attachments/assets/59e8a428-c2da-44c1-b996-7554da91bede" />
+<img width="620" height="370" alt="image" src="https://github.com/user-attachments/assets/8761cd8a-4650-4ae1-9748-8dfc77054783" />
 - `logs/auto_sign.log` 和 `last_status.json`
 
 ## 目录结构
