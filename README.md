@@ -28,7 +28,7 @@ locyanfrp-auto-sign-template/
 ## 环境要求
 
 - Windows 10 / 11
-- Python 3.9+
+- 项目编写环境为Python 3.9+
 - 已在 LoCyanFrp 网站创建 OAuth 应用
 
 ## 第 1 步：准备 OAuth 应用
