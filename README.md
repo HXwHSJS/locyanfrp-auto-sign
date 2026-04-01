@@ -75,7 +75,7 @@ copy config.example.json config.json
 
 然后编辑 `config.json`。
 
-最少先填好：
+先填好`app_id`：
 
 ```json
 {
