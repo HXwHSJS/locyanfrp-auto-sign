@@ -109,6 +109,7 @@ py get_refresh_token.py
 ```
 
 按提示粘贴 `code`。
+
 <img width="530" height="68" alt="image" src="https://github.com/user-attachments/assets/96d13d21-0ea3-4fa7-b77e-513a841ddc28" />
 
 成功后，脚本会自动把 `refresh_token` 写进 `config.json`。
