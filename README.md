@@ -31,7 +31,7 @@ locyanfrp-auto-sign/
 
 ## 第 1 步：准备 OAuth 应用
 
-在 LoCyanFrp 网站后台准备一个 OAuth 应用，并确认你知道自己的 `app_id`。
+在 LoCyanFrp 网站准备一个 OAuth 应用，确认自己的`app_id`。
 <img width="901" height="715" alt="image" src="https://github.com/user-attachments/assets/ea58395a-59f6-4fe0-8056-561e2765b459" />
 
 
