@@ -288,5 +288,6 @@ H:\LocyanSign
 
 ```powershell
 py -c "import requests; print(requests.__version__)"
-如果已经安装了 requests，并且版本不低于 2.15.0，可以直接跳过依赖安装，继续执行后续步骤。
 ```
+如果已经安装了 requests，并且版本不低于 2.15.0，可以直接跳过依赖安装，继续执行后续步骤。
+
